@@ -88,7 +88,15 @@
  * ];
  * @endcode
  */
-$databases = [];
+$databases['default']['default'] = array (
+  'database' => 'games4alldrupal',
+  'username' => 'root',
+  'password' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'driver' => 'mysql',
+  'prefix' => '',
+);
 
 /**
  * Customizing database settings.
