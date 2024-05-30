@@ -1,0 +1,7 @@
+edit_card_page:
+  path: '/edit-card'
+  defaults:
+    _title: 'Edit Card'
+    _controller: '\Drupal\add_card_block\Controller\EditCardController::content'
+  requirements:
+    _permission: 'access content'

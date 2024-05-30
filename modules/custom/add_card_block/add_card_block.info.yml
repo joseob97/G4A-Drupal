@@ -1,0 +1,7 @@
+name: 'Add Card Block'
+type: module
+description: 'Provides a block to add new cards'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+dependencies:
+  - node
